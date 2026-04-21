@@ -42,9 +42,9 @@ Depending on your OS, you may need specific libraries for the GUI and networking
 
 Linux (Debian/Ubuntu/Mint) 
 
-# sudo apt update
+### sudo apt update
 
-# sudo apt install build-essential pkg-config libssl-dev libdbus-1-dev libgtk-3-dev
+#### sudo apt install build-essential pkg-config libssl-dev libdbus-1-dev libgtk-3-dev
 
 
 ## 3. Clone the Project
@@ -52,9 +52,9 @@ Linux (Debian/Ubuntu/Mint)
 
 Clone the repository to your local machine:
 
-## git clone [https://github.com/netgoldfishtoo/Apect-Launcher/]
+### git clone [https://github.com/netgoldfishtoo/Apect-Launcher/]
 
-## cd ApectLauncher
+### cd ApectLauncher
 
 
 ## 4. Compiling and Running
@@ -64,7 +64,7 @@ Development Mode
 
 To compile and run the project immediately:
 
-## cargo run
+### cargo run
 
 
 This will download all 900+ dependencies (this may take a while on the first run).
@@ -80,7 +80,7 @@ For the best performance and smallest file size, compile in release mode:
 Bash
 
 
-## cargo build --release
+### cargo build --release
 
 
 The resulting executable will be located at ./target/release/apect. 
